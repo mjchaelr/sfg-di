@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"guru.springframework.sfgdi", "pet.service"})
+//@ComponentScan(basePackages = {"guru.springframework.sfgdi", "pet.service"}) // with java config in main package, not need for component scan
 @SpringBootApplication
 public class SfgDiApplication {
 
