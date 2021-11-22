@@ -9,7 +9,6 @@ import org.springframework.context.annotation.*;
 import pet.service.PetService;
 import pet.service.PetServiceFactory;
 
-@PropertySource("classpath:datasource.properties")
 @ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
