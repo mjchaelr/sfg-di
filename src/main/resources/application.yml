@@ -13,6 +13,6 @@ guru:
 spring:
   profiles: prod
 guru:
-  username: produser
+  username: prodUser
   password: prodPassword
   jdbcUrl: prodSomeUrlForDB
