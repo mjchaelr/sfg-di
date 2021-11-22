@@ -1,7 +1,18 @@
 spring:
   profiles:
-    active: dog,EN, dev
+    active:
+      - dog
+      - EN
+      - prod
 guru:
   username: ymluser
   password: ymlPassword
   jdbcUrl: ymlSomeUrlForDB
+
+--- ## this is a yaml file separator, another config can be inserted next
+spring:
+  profiles: prod
+guru:
+  username: produser
+  password: prodPassword
+  jdbcUrl: prodSomeUrlForDB
